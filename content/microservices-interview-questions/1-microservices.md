@@ -73,7 +73,7 @@
 --
 
 # Answer
-- Architecture approach where the aplication has a single code base
+- Architecture approach where the application has a single code base
 - Application typically contain multiple modules (based on business or technical features) which are tightly coupled
 - A monolithic application is self contained and modules are connected and dependent on each other
 - Application has a single build job which produces a single artifact (e.g. single Java WAR)
