@@ -60,3 +60,61 @@
 - Often result in duplication of effort
 
 ---
+
+## Question
+# What is monolithic architecture?
+
+--
+
+# What is the interviewer looking for?
+- Whether you know monolithic architecture and you have built applications using the same
+- Bonus: if you can lay out some advantages and give some examples where monolithic architecture is a good choice
+
+--
+
+# Answer
+- Architecture approach where the aplication has a single code base
+- Application typically contain multiple modules (based on business or technical features) which are tightly coupled
+- A monolithic application is self contained and modules are connected and dependent on each other
+- Application has a single build job which produces a single artifact (e.g. single Java WAR)
+
+---
+
+## Question
+# What are the advantages of monolithic architecture?
+
+--
+
+# What is the interviewer looking for?
+- Whether you have hands-on experience building monolithic architecture
+- Whether you know the difference between monolithic and microservice architecture and where monolithic architecture is a good choice
+
+--
+
+# Answer
+- Development is simple
+- Deployment is easy
+- Simple scaling
+- Testing is easy
+
+---
+
+## Question
+# Any disadvantages of monolithic architecture?
+
+--
+
+# What is the interviewer looking for?
+- Whether you have hands-on experience building microservice architecture
+- Whether you know the difference between monolithic and microservice architecture and when monolithic isn't a good choice
+
+--
+
+# Answer
+- Maintenance is a pain for large monolithic code base
+- Single issue can bring down entire application
+- Long build and deploy time
+- Scaling particular functionality isn't possible
+- Upgrade or using advance technology is difficult
+
+---
